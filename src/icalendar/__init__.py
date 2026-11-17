@@ -19,6 +19,7 @@ from icalendar.cal import (
     Todo,
 )
 from icalendar.enums import (
+    ACTION,
     BUSYTYPE,
     CLASS,
     CUTYPE,
@@ -42,6 +43,7 @@ from icalendar.error import (
     IncompleteAlarmInformation,
     IncompleteComponent,
     InvalidCalendar,
+    InvalidToken,
     JCalParsingError,
     LocalTimezoneMissing,
     XCalParsingError,
@@ -102,6 +104,7 @@ from icalendar.timezone import is_utc, use_pytz, use_zoneinfo
 from .version import __version__, __version_tuple__, version, version_tuple
 
 __all__ = [
+    "ACTION",
     "BUSYTYPE",
     "CLASS",
     "CUTYPE",
@@ -137,6 +140,7 @@ __all__ = [
     "IncompleteAlarmInformation",
     "IncompleteComponent",
     "InvalidCalendar",
+    "InvalidToken",
     "JCalParsingError",
     "Journal",
     "LazyCalendar",
