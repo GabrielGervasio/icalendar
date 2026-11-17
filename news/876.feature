@@ -1,1 +1,0 @@
-Created the :attr:`vUTCOffset.ical_value <icalendar.prop.dt.utc_offset.vUTCOffset.ical_value>` property. @GabrielGervasio
